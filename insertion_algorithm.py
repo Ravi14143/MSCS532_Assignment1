@@ -1,13 +1,5 @@
 def insertion_sort_descending(arr):
-    """
-    Perform Insertion Sort in descending order.
-    
-    Parameters:
-        arr (list): A list of integers to be sorted.
-        
-    Returns:
-        list: A list sorted in monotonically decreasing order.
-    """
+
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
